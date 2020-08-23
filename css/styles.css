@@ -198,6 +198,13 @@ figure {
 
 
 }}
+img {
+  vertical-align: right;
+  border-style: none;
+  margin-right: 5rem;
+  width: 25vw;
+  height: 55vh;
+}
 
 .profile{
     vertical-align: right;
