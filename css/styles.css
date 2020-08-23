@@ -196,12 +196,17 @@ figure {
   margin: 0 0 1rem;
 }
 
-img {
-  vertical-align: right;
+.profile{
+    vertical-align: right;
   border-style: none;
   margin-right: 5rem;
   width: 25vw;
   height: 55vh;
+}
+@media (max-width: 650px){
+  .profile{
+    display: none;
+  }
 }
 
 svg {
